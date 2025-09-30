@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Labubu</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://i.ibb.co/4w67GpMJ/brown-labubu-illustration-free-vector-removebg-preview.png" alt="Labubu">
+        <h1>Produtos Labubu</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="pg1.html">Principal</a></li>
+            <li><a href="pg2.html">Produtos</a></li>
+            <li><a href="pg3.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="secao">
+        <h2>Labubus Grandes</h2>
+        <div class="grupo-produtos">
+            <div class="produto">
+                <img src="https://i.ibb.co/hJNGk9pC/pop-mart-labubu-the-monsters-zimomo-i-found-you-vinyl-doll-tote-bag-marrom-59cm-lk-lab31-615822.jpg"
+                    alt="Labubu Grande Marrom">
+                <h3>Labubu Grande Marrom</h3>
+                <p>R$ 79,90</p>
+            </div>
+            <div class="produto">
+                <img src="https://i.ibb.co/3sZqgYv/labubu-grande-vermelho.jpg" alt="Labubu Grande Vermelho">
+                <h3>Labubu Grande Vermelho</h3>
+                <p>R$ 84,90</p>
+            </div>
+            <div class="produto">
+                <img src="https://i.ibb.co/0JmYgZV/labubu-grande-azul.jpg" alt="Labubu Grande Azul">
+                <h3>Labubu Grande Azul</h3>
+                <p>R$ 82,50</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="secao">
+        <h2>Labubus Médios</h2>
+        <div class="grupo-produtos">
+            <div class="produto">
+                <img src="https://i.ibb.co/mFSpmQXK/559eaca6c22467d563ea564fcc0f4c40.jpg" alt="Labubu Médio Banana">
+                <h3>Labubu Médio Banana</h3>
+                <p>R$ 59,99</p>
+            </div>
+            <div class="produto">
+                <img src="https://i.ibb.co/6YgYgYy/labubu-medio-verde.jpg" alt="Labubu Médio Verde">
+                <h3>Labubu Médio Verde</h3>
+                <p>R$ 62,90</p>
+            </div>
+            <div class="produto">
+                <img src="https://i.ibb.co/9nYgYgY/labubu-medio-rosa.jpg" alt="Labubu Médio Rosa">
+                <h3>Labubu Médio Rosa</h3>
+                <p>R$ 64,90</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="secao">
+        <h2>Labubus Pequenos</h2>
+        <div class="grupo-produtos">
+            <div class="produto">
+                <img src="https://i.ibb.co/RpbWBYnh/D-NQ-NP-771020-CBT86551316810-062025-O.webp"
+                    alt="Labubu Pequeno Natal">
+                <h3>Labubu Pequeno Natal</h3>
+                <p>R$ 39,90</p>
+            </div>
+            <div class="produto">
+                <img src="https://i.ibb.co/7gYgYgY/labubu-pequeno-laranja.jpg" alt="Labubu Pequeno Laranja">
+                <h3>Labubu Pequeno Laranja</h3>
+                <p>R$ 42,00</p>
+            </div>
+            <div class="produto">
+                <img src="https://i.ibb.co/8gYgYgY/labubu-pequeno-roxo.jpg" alt="Labubu Pequeno Roxo">
+                <h3>Labubu Pequeno Roxo</h3>
+                <p>R$ 41,50</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        background-color: rgb(151, 121, 83);
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    header img {
+        height: 100px;
+        margin-right: 15px;
+    }
+
+    header h1 {
+        color: white;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        gap: 15px;
+        background-color: rgb(224, 201, 166);
+        padding: 10px 20px;
+    }
+
+    nav li a:hover {
+        color: rgb(198, 147, 93);
+    }
+    nav li a{
+        text-decoration: none;
+        color: rgb(92, 61, 28);
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .secao {
+        padding: 30px 20px;
+    }
+
+    .secao h2 {
+        color: rgb(92, 61, 28);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .grupo-produtos {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .produto {
+        background-color: #f3e9dc;
+        border-radius: 10px;
+        padding: 15px;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .produto:hover {
+        transform: scale(1.1);
+    }
+
+    .produto img {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .produto h3 {
+        margin: 10px 0 5px;
+        color: #5c3d1c;
+    }
+</style>
