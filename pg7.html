@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Labubu</title>
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/4w67GpMJ/brown-labubu-illustration-free-vector-removebg-preview.png" alt="Labubu">
+        <h1>Cadastro Labubu</h1>
+    </header>
+
+    <div class="cadastro">
+        <h2>Cadastro</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="confirmar">Confirmar senha:</label>
+            <input type="password" id="confirmar" name="confirmar" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="pg6.html">Faça login</a></p>
+    </div>
+</body>
+</html>
+ <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3e9dc;
+        }
+
+        header {
+            background-color: rgb(151, 121, 83);
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 100px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            color: rgb(255, 255, 255);
+        }
+
+        .cadastro {
+            max-width: 500px;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .cadastro h2 {
+            text-align: center;
+            color: rgb(92, 61, 28);
+            margin-bottom: 20px;
+        }
+
+        .cadastro label {
+            display: block;
+            margin-bottom: 5px;
+            color: #5c3d1c;
+            font-weight: bold;
+        }
+
+        .cadastro input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .cadastro button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(151, 121, 83);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .cadastro button:hover {
+            background-color: rgb(198, 147, 93);
+        }
+
+        .cadastro p {
+            text-align: center;
+            margin-top: 15px;
+            color: #5c3d1c;
+        }
+
+        .cadastro a {
+            color: rgb(151, 121, 83);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cadastro a:hover {
+            color: rgb(198, 147, 93);
+        }
+    </style>

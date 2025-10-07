@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Loja</title>
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/4w67GpMJ/brown-labubu-illustration-free-vector-removebg-preview.png" alt="Labubu">
+        <h1>Login Labubu</h1>
+    </header>
+
+    <div class="login">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="pg7.html">Cadastre-se</a></p>
+    </div>
+</body>
+</html>
+ <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3e9dc;
+        }
+
+        header {
+            background-color: rgb(151, 121, 83);
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 100px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            color: rgb(255, 255, 255);
+        }
+
+        .login {
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login h2 {
+            text-align: center;
+            color: rgb(92, 61, 28);
+            margin-bottom: 20px;
+        }
+
+        .login label {
+            display: block;
+            margin-bottom: 5px;
+            color: #5c3d1c;
+            font-weight: bold;
+        }
+
+        .login input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(151, 121, 83);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login button:hover {
+            background-color: rgb(198, 147, 93);
+        }
+
+        .login p {
+            text-align: center;
+            margin-top: 15px;
+            color: #5c3d1c;
+        }
+
+        .login a {
+            color: rgb(151, 121, 83);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login a:hover {
+            color: rgb(198, 147, 93);
+        }
+    </style>
